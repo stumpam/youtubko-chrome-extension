@@ -1,0 +1,13 @@
+{
+  "name": "Youtubko",
+  "description": "Extension for connection of youtube site to Elgato Stream Deck.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["yt.js"]
+    }
+  ],
+  "permissions": ["activeTab"]
+}
